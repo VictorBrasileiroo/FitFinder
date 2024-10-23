@@ -5,6 +5,8 @@ FitFinder é uma aplicação web projetada para facilitar a busca por exercício
 <h3><a href='https://victorbrasileiroo.github.io/FitFinder/
 '>Clique aqui para visitar o site</a></h3>
 
+<hr/>
+
 ## Índice
 1. [Visão Geral](#visão-geral)
 2. [Tecnologias](#tecnologias)
