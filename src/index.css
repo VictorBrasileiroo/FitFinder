@@ -13,4 +13,5 @@ body {
   background-color: #2e2e2e;
   display: flex;
   flex-direction: column;
+  position: relative;
 }/*# sourceMappingURL=index.css.map */
