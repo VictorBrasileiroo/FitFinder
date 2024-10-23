@@ -23,8 +23,9 @@ O **FitFinder** é uma aplicação web desenvolvida para facilitar a busca por e
 - **React.js** - Biblioteca JavaScript para a criação da interface de usuário
 - **Vite** - Ferramenta de construção rápida e otimizada para desenvolvimento frontend
 - **Sass** - Pré-processador CSS utilizado para estilização
+- **Axios** - Utilizado para trabalhar com APIs
 - **Figma** - Utilizado para o design e prototipação da interface
-- **API de Exercícios** - Fonte de dados para os exercícios filtrados
+- **API de Exercícios** - (https://github.com/yuhonas/free-exercise-db)
 
 ---
 
