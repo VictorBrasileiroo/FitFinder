@@ -1,7 +1,6 @@
-# **Nome do Projeto**
+# **FitFinder**
 <img src="src/assets/thumb.svg" alt="">
-> Descrição breve do que o projeto faz ou seu propósito.
-
+> FitFinder é uma aplicação web projetada para facilitar a busca por exercícios físicos. Através da integração com uma API de exercícios, ela oferece uma lista personalizada de atividades com base nos filtros selecionados pelo usuário, garantindo uma experiência de pesquisa eficiente e direcionada às suas necessidades.
 ## Índice
 1. [Visão Geral](#visão-geral)
 2. [Tecnologias](#tecnologias)
@@ -27,9 +26,9 @@ Liste as principais tecnologias e bibliotecas que o projeto utiliza.
 
 ### Exemplo:
 - **React** - Biblioteca JavaScript para construir interfaces de usuário
-- **React Router** - Para roteamento de páginas
 - **Axios** - Para fazer requisições HTTP
-- **Styled Components** - Para estilização
+- **Sass** - Para estilização
+- **Figma** - Para elaboração do Design
 
 ---
 
