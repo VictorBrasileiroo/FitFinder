@@ -1,5 +1,6 @@
 # **FitFinder**
 > Uma aplicação web para buscar e filtrar exercícios físicos de acordo com as necessidades do usuário.
+> <img src="src/assets/thumb.svg" alt="">
 
 ## Índice
 1. [Visão Geral](#visão-geral)
