@@ -1,0 +1,217 @@
+.section-input-treinos{
+    width: 100%;
+    padding: 64px 0;
+    gap: 80px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1{
+        font-family: "Bebas Neue", sans-serif;
+        color: #fff;
+        font-size: 64px;
+        font-weight: 700;
+        text-align: center;
+        width: 60%;
+    }
+
+    .forms-treino{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #5D5A88;
+        gap: 48px;
+        border: solid 2px #5D5A88;
+        padding: 24px;
+        border-radius: 1rem;
+
+        .row-1{
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            label{
+                font-family: "Montserrat";
+                font-size: 18px;
+                font-weight: 700;
+                color: #fff;
+            }
+
+            input{
+                width: 600px;
+                padding: 16px;
+                border-radius: 24px;
+                background: #F9F9FF;
+                border: none;
+            }
+        }
+
+        .row-2{
+            display: flex;
+            gap: 24px;
+            justify-content: space-between;
+
+            div{
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+
+                label{
+                    font-family: "Montserrat";
+                    font-size: 18px;
+                    font-weight: 700;
+                    color: #fff;
+                }
+
+                select{
+                    width: 300px;
+                    padding: 16px;
+                    border-radius: 24px;
+                    background: #F9F9FF;
+                    border: none;
+                }
+            }
+        }
+
+        .row-3{
+            display: flex;
+            gap: 24px;
+            justify-content: space-between;
+
+            div{
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+
+                label{
+                    font-family: "Montserrat";
+                    font-size: 18px;
+                    font-weight: 700;
+                    color: #fff;
+                }
+
+                select{
+                    width: 300px;
+                    padding: 16px;
+                    border-radius: 24px;
+                    background: #F9F9FF;
+                    border: none;
+                }
+            }
+        }
+
+        button{
+            padding: 12px 24px;
+            border-radius: 1rem;
+            background: #fff;
+            border: none;
+            color: #5D5A88;
+            font-family: "Montserrat";
+            font-weight: 600;
+            cursor: pointer;
+            transition: .3s ease all;
+
+            &:hover{
+                background-color: #5D5A88;
+                transform: scale(1.1);
+                color: white;
+                border: white 1px solid;
+            }
+        }
+    }
+}
+
+.section-cards-treinos{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .card {
+    padding: 24px;
+    background-color: #555;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .card-content h3 {
+    font-family: 'Montserrat';
+    color: #fff;
+    margin: 0 0 10px;
+    font-size: 24px;
+  }
+  
+  .card-content p {
+    font-family: 'Montserrat';
+    text-align: justify;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+  }
+
+@media screen and (max-width: 960px) {
+    .section-input-treinos{
+        h1{
+            width: 90%;
+        }
+    }
+
+    .forms-treino{
+        width: 90vw;
+
+        .row-1{
+            width: 100%;
+
+            #name-train{
+                width: 100%;
+            }
+        }
+
+        .row-2{
+            width: 100%;
+            flex-direction: column;
+
+            div{
+                width: 100%;
+            }
+        }
+
+        .row-3{
+            width: 100%;
+            flex-direction: column;
+
+            div{
+                width: 100%;
+            }
+        }
+    } 
+}

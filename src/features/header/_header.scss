@@ -1,0 +1,15 @@
+.header-home{
+    width: 100%;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5D5A88;
+
+    .logo-header-home{
+        font-family: "Danfo", serif;
+        color: #fff;
+        line-height: 20px;
+        font-size: 42px;
+    }
+}

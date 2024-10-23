@@ -1,0 +1,16 @@
+@import url(features/header/_header.scss);
+@import url(features/main/_main.scss);
+@import url(features/_layout.scss);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Danfo&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2e2e2e;
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=index.css.map */
