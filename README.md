@@ -2,6 +2,10 @@
 FitFinder é uma aplicação web projetada para facilitar a busca por exercícios físicos. Através da integração com uma API de exercícios, ela oferece uma lista personalizada de atividades com base nos filtros selecionados pelo usuário, garantindo uma experiência de pesquisa eficiente e direcionada às suas necessidades.
 <hr/>
 <img src="src/assets/thumb.svg" alt="">
+<h3><a href='https://victorbrasileiroo.github.io/FitFinder/
+'>Clique aqui para visitar o site</a></h3>
+
+<hr/>
 
 ## Índice
 1. [Visão Geral](#visão-geral)
@@ -21,8 +25,9 @@ O **FitFinder** é uma aplicação web desenvolvida para facilitar a busca por e
 - **React.js** - Biblioteca JavaScript para a criação da interface de usuário
 - **Vite** - Ferramenta de construção rápida e otimizada para desenvolvimento frontend
 - **Sass** - Pré-processador CSS utilizado para estilização
+- **Axios** - Utilizado para trabalhar com APIs
 - **Figma** - Utilizado para o design e prototipação da interface
-- **API de Exercícios** - Fonte de dados para os exercícios filtrados
+- **API de Exercícios** - (https://github.com/yuhonas/free-exercise-db)
 
 ---
 
