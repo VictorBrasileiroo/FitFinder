@@ -1,6 +1,8 @@
 # **FitFinder**
 <img src="src/assets/thumb.svg" alt="">
-> FitFinder é uma aplicação web projetada para facilitar a busca por exercícios físicos. Através da integração com uma API de exercícios, ela oferece uma lista personalizada de atividades com base nos filtros selecionados pelo usuário, garantindo uma experiência de pesquisa eficiente e direcionada às suas necessidades.
+
+FitFinder é uma aplicação web projetada para facilitar a busca por exercícios físicos. Através da integração com uma API de exercícios, ela oferece uma lista personalizada de atividades com base nos filtros selecionados pelo usuário, garantindo uma experiência de pesquisa eficiente e direcionada às suas necessidades.
+
 ## Índice
 1. [Visão Geral](#visão-geral)
 2. [Tecnologias](#tecnologias)
